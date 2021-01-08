@@ -1,0 +1,135 @@
+
+body {
+  color: #6c737e;
+  margin: 0;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+color: #7393a7;
+  margin: 50px auto 20px auto;
+  font-family: 'PT Mono', monospace;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+h2 {
+  color: #7393a7;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #7393a7;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #e8ecf1;
+  height: 0;
+  width: 5%;
+}
+
+/************************** Class Selector  *****************************/
+.top-container {
+  background-color: #e8ecf1;
+  font-size: 20px;
+  padding-top: 100px;
+  position: relative;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+}
+.skill-row {
+  width: 100%;
+  text-align: left;
+  line-height: 2;
+}
+.skill-row h3 {
+  text-align: left;
+}
+.skill-container-1 {
+  width: 50%;
+  margin: 70px auto;
+}
+.skill-container-2 {
+  width: 50%;
+  margin: 140px auto;
+}
+.profile {
+  margin: 70px auto;
+  width: 25%;
+}
+.profile img {
+  width: 200px;
+  height: 250px;
+}
+
+.skills {
+  margin: 70px auto;
+}
+.programme-img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  padding-right: 30px;
+}
+.fly-img {
+  height: 200px;
+  width: 200px;
+  float: right;
+  padding-left: 30px;
+}
+.BUTTON_CONTACT_ME {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #7393A7;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 40px auto;
+
+}
+
+.BUTTON_CONTACT_ME:hover {
+   background: #6C737E;
+   border: solid #6C737E 0;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.contact-me {
+  margin: 70px auto;
+  width: 25%;
+}
+
+.bottom-container a {
+  color: #b5cfd8;
+  margin: auto 50px;
+  text-decoration: none;
+}
+.bottom-container a:hover {
+  color: #e8ecf1;
+}
+.bottom-container {
+  background-color: #7393A7;
+  padding-top: 50px;
+}
+.copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
